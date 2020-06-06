@@ -113,13 +113,13 @@ function activeFunction() {
 function winnerFunction() {
        if (sumScore0 >= target || sumScore1 >= target) {
               if (activePlayer === 1) {
-                     document.querySelector('#name-0').textContent = 'WINNER';
+                     document.querySelector('#name-0').textContent = 'WINNER!';
                      document.querySelector('.player-0-panel').classList.remove('active');
                      document.querySelector('.player-1-panel').classList.remove('active');
                      document.querySelector('.player-0-panel').classList.add('winner');
               }
               else {
-                     document.querySelector('#name-1').textContent = 'WINNER';
+                     document.querySelector('#name-1').textContent = 'WINNER!';
                      document.querySelector('.player-1-panel').classList.remove('active');
                      document.querySelector('.player-0-panel').classList.remove('active');
                      document.querySelector('.player-1-panel').classList.add('winner');
