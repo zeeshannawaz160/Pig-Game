@@ -18,7 +18,7 @@ sumCurrent = 0;
 sumScore0 = 0;
 sumScore1 = 0;
 
-const target = 10;
+const target = 100;
 
 diceDOM = document.querySelector('.dice');
 
